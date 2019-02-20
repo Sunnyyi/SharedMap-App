@@ -1,0 +1,25 @@
+//
+//  FriendsCell.swift
+//  Shared Map
+//
+//  Created by 看得见的阳光
+//  Copyright © 2018年 Sunnyyi. All rights reserved.
+//
+
+import UIKit
+
+class ContactCell: UITableViewCell {
+
+    @IBOutlet var noticeImage: UIImageView!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
